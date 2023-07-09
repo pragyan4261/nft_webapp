@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom"
 
 import Banner from "../images/banner-01.png"
+import BackgroundImage from "../images/6020105.jpg"
 
 // import Background from "../images/bg.jpg"
 import SmallCard from "./SmallCard"
@@ -14,7 +15,7 @@ const Home = () => {
   return(
     <div>
         
-        <section className="bg-[url('https://img.freepik.com/free-vector/gradient-cyber-futuristic-background_23-2149117429.jpg?w=1060&t=st=1688544408~exp=1688545008~hmac=2d7523efd11e42964690c8f15b726c06e5f9706c09e7d16e3116d360ace276c1')] bg-cover h-[50rem] pt-10 ">
+        <section className="bg-cover h-[50rem] pt-10 " style={{ backgroundImage: `url(${BackgroundImage})` }}>
         <Navbar />
         <div className='flex space-x-12'>
 
